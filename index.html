@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByeCar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="assets/logo-dnc.png" alt="Logo DNC">
+        <h1>ByeCar</h1>
+    </header>
+
+    <main>
+
+        <div id="main-section">
+            <h1>Ter <strong>uma moto</strong> por assinatura<br> nunca foi tão fácil!</h1>
+            <img id="main-img" src="assets/main-image.png" alt="Mulher em uma Moto">
+        </div>
+
+        <div id="card-section">
+            <h2>Conheça nossas <strong>motos</strong>!</h2>
+            <div id="card">
+                <button onclick="goBack()" class="card-button">
+                    <img src="assets/left-arrow.png" alt="Seta para Esquerda">
+                </button>
+
+                <ul class="container">
+                    <li class="card-item">
+                        <h2>Scooter Elétrica Voltz EV1</h2>
+                        <img src="assets/imagem1.png" alt="Scooter Branca Voltz">
+                        <div class="info-card">
+                            <h3>A partir de</h3>
+                            <span>R$ 619,90</span>
+                            <h4>Plano de 30 meses</h4>
+                        </div>
+                    </li>
+
+                    <li class="card-item">
+                        <h2>Honda CB 500X</h2>
+                        <img src="assets/imagem2.png" alt="Honda CB500X Preta">
+                        <div class="info-card">
+                            <h3>A partir de</h3>
+                            <span>R$ 619,90</span>
+                            <h4>Plano de 30 meses</h4>
+                        </div>
+                    </li>
+                </ul>
+
+                <button onclick="goNext()" class="card-button">
+                    <img src="assets/right-arrow.png" alt="Seta para Direita">
+                </button>
+            </div>
+
+            <button class="saibaMais">Saiba mais</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

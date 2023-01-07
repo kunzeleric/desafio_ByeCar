@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+#logo {
+    width: 150px;
+    margin-right: 3em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3rem;
+    column-gap: 2rem;
+    justify-content: space-around;
+}
+
+main h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#main-section,
+#card-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-section,
+#card-section h2 {
+    font-family: 'Verdana';
+    font-size: 30px;
+    color: #265E70;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    color: #FFFFFF;
+}
+
+span {
+    background: #FFFFFF;
+    border-radius: 15px;
+    color: #265E70;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 8px 20px;
+    width: 200px;
+}
+
+#card {
+    display: flex;
+    column-gap: 30px;
+}
+
+.card-button {
+    border: none;
+    background-color: transparent !important;
+}
+
+.card-item {
+    border-radius: 10px;
+    min-width: 540px;
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+}
+
+.card-item h2{
+    color: #FFFFFF !important;
+}
+.saibaMais {
+    width: 341px;
+    height: 75px;
+    background: #4DBCE9;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 1em;
+}
+
+.container{
+    display: flex;
+    max-width: 540px;
+    overflow-x: hidden;
+}
