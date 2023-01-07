@@ -49,6 +49,7 @@ main h1 {
 
 #card {
     display: flex;
+    column-gap: 30px;
 }
 
 .container{
@@ -58,6 +59,7 @@ main h1 {
     overflow-x: hidden;
     border: 1px solid rgb(49, 70, 190);
     border-radius: 15px;
+    gap: 2rem;
 }
 
 .card-item {
@@ -108,7 +110,6 @@ h4{
 .card-button {
     border: none;
     background-color: transparent !important;
-    padding: 0 0.5rem;
 }
 
 .card-item h2{
