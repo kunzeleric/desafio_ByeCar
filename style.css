@@ -26,7 +26,6 @@ main {
     display: grid;
     grid-template-columns: auto auto;
     padding: 3rem;
-    column-gap: 2rem;
     justify-content: space-around;
 }
 
@@ -35,21 +34,42 @@ main h1 {
     font-weight: normal;
 }
 
-#main-section,
-#card-section {
+#main-section,#card-section {
     text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-#main-section,
-#card-section h2 {
+#main-section,#card-section h2 {
     font-family: 'Verdana';
     font-size: 30px;
     color: #265E70;
-    margin-bottom: 10px;
     font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+#card {
+    display: flex;
+}
+
+.container{
+    display: flex;
+    max-width: 560px;
+    height: auto;
+    overflow-x: hidden;
+    border: 1px solid rgb(49, 70, 190);
+    border-radius: 15px;
+}
+
+.card-item {
+    border-radius: 15px;
+    min-width: 564px;
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+    height: auto;
+}
+
+.img-moto{
+    height: 306px;
 }
 
 .info-card {
@@ -68,30 +88,35 @@ span {
     font-weight: 700;
     padding: 8px 20px;
     width: 200px;
+    margin-bottom: 0.5rem;
 }
 
-#card {
-    display: flex;
-    column-gap: 30px;
+h3{
+    font-family: 'Verdana';
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+h4{
+    font-family: 'Verdana';
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
 }
 
 .card-button {
     border: none;
     background-color: transparent !important;
-}
-
-.card-item {
-    border-radius: 10px;
-    min-width: 540px;
-    background: rgba(77, 188, 233, 0.75);
-    border-radius: 15px;
+    padding: 0 0.5rem;
 }
 
 .card-item h2{
     color: #FFFFFF !important;
+    margin-top: 10px;
 }
 .saibaMais {
-    width: 341px;
+    width: 300px;
     height: 75px;
     background: #4DBCE9;
     border-radius: 15px;
@@ -101,8 +126,3 @@ span {
     margin-top: 1em;
 }
 
-.container{
-    display: flex;
-    max-width: 540px;
-    overflow-x: hidden;
-}
